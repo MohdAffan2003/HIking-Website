@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #b75a74;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    margin: 50px 0 0 0;
+}
+
+nav ul {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+nav li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffefd5;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pageOne {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    filter: drop-shadow(5px 5px 30px #ae556e); 
+}
+
+.pageOneLeft {
+    margin-top: 100px;
+    color: #ffefd5;
+    margin-left: 50px;
+}
+
+.pageOneLeft h1 {
+    font-size: 75px;
+}
+
+.pageOneLeft p {
+    font-size: 28px;
+    width: 50%;
+    padding-top: 25px;
+}
+
+.pageOneLeft button, .pageThreeContent button, .pageFiveContent button {
+    width: 300px;
+    height: 60px;
+    background-color: #ffefd5;
+    border: none;
+    border-radius: 30px;
+    color: #ae556e;
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pageTwo, .pageFour, .pageSix {
+    margin-top: 145px;
+    position: relative;
+}
+
+.pageTwoObjectSix {
+    position: absolute;
+    top: -30px;
+    left: 80px;
+}
+
+.pageTwoObjectFive {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+
+.pageTwoContent, .pageFourContent {
+    position: absolute;
+    top: 5rem;
+}
+
+.pageTwoContent h1, .pageFourContent h1, .pageSevenContent h1  {
+    font-size: 50px;
+    color: #ae556e;
+    text-align: center;
+}
+
+.pageTwoContent p, .pageFourContent p, .pageSevenContent p {
+    font-size: 24px;
+    color: #ae556e;
+    text-align: center;
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 260px;
+}
+
+.pageTwoImages, .pageFourCircles {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 120px 0 120px;
+    text-align: center;
+    color: #ae556e;
+}
+
+.pageTwoImages h2 {
+    padding-top: 20px;
+}
+
+.pageTwoImages p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 0 0 0 70px;
+}
+
+.pageTwoObjectTwenty {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+}
+
+.pageThree, .pageFive, .pageSeven {
+    position: relative;
+}
+
+.pageThreeImages, .pageFiveImages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pageTwoObjectThirteen {
+    position: absolute;
+    top: 22rem;
+    right: 0;
+}
+
+.pageThreeObjectEleven {
+    position: absolute;
+    left: 5rem;
+    top: 4rem;
+}
+
+.pageThreeObjectEighteen {
+    position: absolute;
+    top: -4rem;
+}
+
+.pageThreeObjectSix {
+    position: absolute;
+    top: -4rem;
+    right: 5rem;
+}
+
+.pageThreeContent {
+    margin: 180px 0 0 150px;
+    display: flex;
+}
+
+.pageThreeContentHead {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.pageThreeContent h1 {
+    color: #ffefd5;
+    font-size: 65px;
+}
+.pageThreeContentPara {
+    color: #ffefd5;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.pageFourImages {
+    display: flex;
+}
+
+.pageFourObjectSeven {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.pageFourObjectFourteen {
+    position: absolute;
+    top: -4.3rem;
+    right: 20rem;
+}
+
+.pageFourObjectFour {
+    position: absolute;
+    top: 10rem;
+    right: 6rem;
+}
+
+.CircleOne {
+    margin-top: 50px;
+    border: 2px solid #ae556e;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.CircleOne h1 {
+    padding-top: 4.5rem;
+    font-weight: 800;
+}
+
+.pageFiveObjectFive {
+    position: absolute;
+    top: -3rem;
+    left: 15rem;
+}
+
+.pageFiveObjectThree {
+    position: absolute;
+    top: -3rem;
+    right: 15rem;
+}
+
+.pageFiveContent {
+    margin: 10rem 0 0 12rem;
+    display: flex;
+}
+
+.pageFiveContentHead {
+    color: #ffefd5;
+    font-size: 25px;
+    padding-top: 8rem;
+}
+
+.PageFiveMask {
+    padding-left: 50px;
+}
+
+.pageFiveObjectSeventeen {
+    position: absolute;
+    top: 20rem;
+}
+
+.pageFiveObjectFifteen {
+    position: absolute;
+    top: 20rem;
+    right: 0;
+}
+
+.pageSixOpacity {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #ae556e;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.pageSixObject {
+    position: absolute;
+    z-index: 2;
+    top: 7rem;
+}
+
+.pageSixObjectSeven {
+    position: absolute;
+    z-index: 2;
+    top: -5rem;
+    left: 35rem;
+}
+
+.pageSixObjectTwo {
+    position: absolute;
+    z-index: 2;
+    top: 28rem;
+    right: 0;
+}
+
+.pageSixContent {
+    position: absolute;
+    z-index: 2;
+    top: 25rem;
+    left: 10rem;
+    font-size: 28px;
+    color: white;
+    line-height: 1.5;
+}
+
+.pageSixContent h3 {
+    padding-top: 50px;
+}
+
+.pageSevenObjectFive {
+    position: absolute;
+    z-index: 3;
+    top: -3rem;
+    right: 33rem;
+}
+
+.pageSevenObjectSix {
+    position: absolute;
+    top: 16rem;
+    left: 4rem;
+}
+
+.pageSevenObjectFour {
+    position: absolute;
+    top: 24rem;
+    right: 6rem;
+}
+
+.pageSevenContent {
+    position: absolute;
+    top: 10rem;
+}
+
+.pageSevenInput {
+    display: flex;
+    position: absolute;
+    top: 25rem;
+    left: 23rem;
+}
+
+.pageSevenInput input {
+    width: 26rem;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.pageSevenInput button {
+    width: 200px;
+    height: 50px;
+    background-color: #ae556e;
+    border: none;
+    border-radius: 30px;
+    color: #ffefd5;
+    font-size: 20px;
+    margin-left: -30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pageEight {
+    position: relative;
+    background-color: #29141a;
+    height: 30rem;
+    width: 100%;
+    color: white;
+    margin-top: -4px;
+}
+
+.pageEightObjectThree {
+    position: absolute;
+    top: -7rem;
+    right: 30rem;
+}
+
+.pageEightContent {
+    padding: 8rem 0 0 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.pageEightContentLorem {
+    width: 31%;
+    font-size: 20px;
+}
+
+.ipsum {
+    padding-top: 20px;
+}
+
+.pageEightLogo {
+    padding-top: 20px;
+    word-spacing: 10px;
+}
+
+.pageEightAbout {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer {
+    font-size: 19px;
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
